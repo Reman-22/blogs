@@ -1,0 +1,12 @@
+.blg{
+    h2{
+        font-size: 38px;
+        margin: 20px 30px;
+    }
+    .blogs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+}

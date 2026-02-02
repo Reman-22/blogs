@@ -1,0 +1,39 @@
+.hero{
+    /* align-items: center;
+    vertical-align: middle; */
+    text-align: center;
+    margin: 10%;
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+
+    }
+    p{
+        color: #C0C5D0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        vertical-align: middle;
+        max-width: 600px;
+        margin: auto;
+    }
+    .form{
+        margin: 20px;
+    input{
+        padding: 12px;
+        border-radius: 8px;
+        width: 300px;
+        border-color: #7F56D9;
+    }
+
+    .btn{
+        color: white;
+        background-color:#7F56D9 ;
+        border-radius: 8px;
+        height: 35px;
+        width: 120px;
+        border: 1px;
+        margin: 5px;
+    }}
+}
