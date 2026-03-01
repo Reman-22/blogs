@@ -1,39 +1,45 @@
 .hero{
-    /* align-items: center;
-    vertical-align: middle; */
     text-align: center;
-    margin: 10%;
+    margin: 5% 20px;
     h1{
-        font-size: 50px;
+        font-size: clamp(2rem ,5vw,3.125rem);
         font-weight: 600;
-        line-height: 60px;
-
+        line-height: 1.2;
     }
     p{
         color: #C0C5D0;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 1.1rem;
+        line-height: 1.5;
         vertical-align: middle;
+        width: 90%;
         max-width: 600px;
         margin: auto;
     }
     .form{
         margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        
     input{
         padding: 12px;
         border-radius: 8px;
-        width: 300px;
-        border-color: #7F56D9;
+        width: 100%;
+        border:1px solid #7F56D9;
     }
-
     .btn{
         color: white;
         background-color:#7F56D9 ;
         border-radius: 8px;
         height: 35px;
-        width: 120px;
-        border: 1px;
-        margin: 5px;
+        width: 100%;
+        max-width: 120px;
+        border: none;
+        transition: opacity 0.3s;
+        :hover{
+            opacity: 0.9;
+        }
     }}
 }

@@ -2,5 +2,5 @@
     align-items: start;
     margin: 10px;
     border-top:1px #090D1F solid ;
-
+    font-size:clamp(0.5rem ,5vw,1rem)
 }

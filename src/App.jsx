@@ -18,7 +18,7 @@ Url:"/about"
   return (
         <>
     <header>
-      <NavBar title="Your Name"  items={Items}   btn="Sign in"/>
+      <NavBar title="DashStack"  items={Items}   btn="Sign in"/>
     </header>
     <main>
     <Routes>

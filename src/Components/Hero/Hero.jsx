@@ -1,6 +1,6 @@
-import React from 'react'
+import Form from '../Form/Form'
 import './Hero.css'
-const Hero = ( {title , description , btn}) => {
+const Hero = ( {title , description ,btn}) => {
   return (
     <div className='hero'>
         <h1>{title}</h1>
