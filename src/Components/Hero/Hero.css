@@ -19,14 +19,12 @@
     .form{
         margin: 20px;
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
         
     input{
         padding: 12px;
         border-radius: 8px;
-        width: 100%;
         border:1px solid #7F56D9;
     }
     .btn{
@@ -42,4 +40,9 @@
             opacity: 0.9;
         }
     }}
+}
+@media (max-width:768px) {
+    .form{
+        flex-wrap: wrap;
+    }
 }
